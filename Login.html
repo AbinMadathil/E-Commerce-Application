@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
+    
+</head>
+<body>
+    <header>
+        <span>
+              <img src="	https://carestack.com/_next/static/media/logo-sm.755f955f.svg">
+                <span class="adjustname"> Carestack Shopping</span>
+              </span>
+        <nav>
+          <ul>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <div  class="form-container">
+        <h2 class="Logg">Login</h2>
+        <form id="LoginForm" >
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          <label for="password">Password: </label>
+          <input type="password" id="password" name="password" placeholder="enter your password" required> 
+          <button id="login-submit"  type="submit" class="sign">LogIn</button>
+          <span class="error hide" id="error">Email or password is invalid!</span>
+        </form>
+      
+      </div>
+
+      <script src='Login.js'></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='signup.css'>
+    
+</head>
+<body>
+    <header>
+        <span>
+              <img src="	https://carestack.com/_next/static/media/logo-sm.755f955f.svg">
+                <span class="adjustname"> Carestack Shopping</span>
+              </span>
+        <nav>
+          <ul>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <div class="form-container">
+        <h2 class="Logg">Sign Up</h2>
+        <form id="signupForm" action="#" method="post">
+          <label for="Name">Name: </label>
+          <input type="name" id="name" name="name" placeholder="Enter your name" required>
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          <label for="password">Password: </label>
+          <input type="password" id="password" name="password" placeholder="enter your password" required> 
+          
+          <label for="password">Confirm Password: </label>
+          <input type="password" id="confirm-password" name="password" placeholder="re-enter your password" required> 
+          <snap class="error" id="err"></snap>
+          <button id="signup-submit" type="submit">Sign Up</button>
+          
+          <button onclick="window.location.href='./Login.html';">Log In</button>
+        </form>
+      
+      </div>
+      <script src="Login.js"></script>
+</body>
+</html>
